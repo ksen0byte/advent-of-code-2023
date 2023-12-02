@@ -15,10 +15,12 @@ The project is structured as follows:
 ## Solutions
 
 - [Day 1 Solution](src/main/scala/day1/Day1.scala)
+- [Day 2 Solution](src/main/scala/day2/Day2.scala)
 
 ## Tests
 
 - [Day 1 Tests](src/test/scala/day1/Day1Test.scala)
+- [Day 2 Tests](src/test/scala/day2/Day2Test.scala)
 
 Feel free to explore the solutions and tests. Each day's challenge is solved in a dedicated Scala file, ensuring a clean
 and organized approach to problem-solving. Enjoy coding!
