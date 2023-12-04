@@ -16,9 +16,8 @@ object Position:
   def isAdjacent(l: Position, r: Position): Boolean = math.abs(l.row - r.row) < 2 && math.abs(l.col - r.col) < 2
 
 object EngineSchematics:
-  private val numRegex  = "(\\d+)".r
-  private val symRegex  = "([^\\d.]+)".r
-  private val gearRegex = "(\\*)".r
+  private val numRegex = "(\\d+)".r
+  private val symRegex = "([^\\d.]+)".r
 
   def parse(schema: Seq[String]): EngineSchematics =
     val (nums, syms) = schema.zipWithIndex.map { (schemaLine, col) =>
