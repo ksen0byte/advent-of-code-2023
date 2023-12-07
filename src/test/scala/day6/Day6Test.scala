@@ -14,6 +14,6 @@ class Day6Test extends AnyFunSuite:
   }
 
   test("'part2' should handle example") {
-    val result = part1(data)
-    assert(result == 288)
+    val result = part2(data)
+    assert(result == 71503)
   }
