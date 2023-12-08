@@ -21,6 +21,7 @@ The project is structured as follows:
 - [Day 5 Solution](src/main/scala/day5/Day5.scala)
 - [Day 6 Solution](src/main/scala/day6/Day6.scala)
 - [Day 7 Solution](src/main/scala/day7/Day7.scala)
+- [Day 8 Solution](src/main/scala/day8/Day8.scala)
 
 ## Tests
 
@@ -31,6 +32,7 @@ The project is structured as follows:
 - [Day 5 Tests](src/test/scala/day5/Day5Test.scala)
 - [Day 6 Tests](src/test/scala/day6/Day6Test.scala)
 - [Day 7 Tests](src/test/scala/day7/Day7Test.scala)
+- [Day 8 Tests](src/test/scala/day8/Day8Test.scala)
 
 Feel free to explore the solutions and tests. Each day's challenge is solved in a dedicated Scala file, ensuring a clean
 and organized approach to problem-solving. Enjoy coding!
