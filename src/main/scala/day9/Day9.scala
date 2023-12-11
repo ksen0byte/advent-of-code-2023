@@ -3,7 +3,7 @@ package day9
 import scala.annotation.tailrec
 
 @main
-def day8(): Unit =
+def day9(): Unit =
   val input = os.read.lines(os.resource / os.RelPath("day9/input.txt"))
   println(part1(input))
   println(part2(input))
